@@ -1,6 +1,6 @@
 import Component from '@/component'
 
 test('something', () => {
-  Component()
+  Component('x')
   expect(true).toBeTruthy()
 })
